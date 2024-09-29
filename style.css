@@ -41,7 +41,7 @@ body {
   position: absolute;
   width: 130%;
   height: 130%;
-  opacity: .8;
+  opacity: 0.8;
   background: url(./pattern.jpg);
   background-size: cover;
   filter: blur(35px);
@@ -67,7 +67,7 @@ body {
   background-color: var(--color-blue);
   border-radius: var(--border-radius);
   isolation: isolate;
-  font-family: 'Rubik Mono One', sans-serif;
+  font-family: "Rubik Mono One", sans-serif;
 }
 
 .cell--X {
@@ -111,6 +111,37 @@ body {
   outline: none;
   border: 1px solid var(--color-aqua);
   border-radius: calc(var(--border-radius) / 4);
-  padding: .4rem .8rem;
+  padding: 0.4rem 0.8rem;
   color: var(--color-aqua);
+}
+/* Medium screens */
+@media (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+
+  .board {
+    grid-template-columns: repeat(var(--grid-rows), minmax(60px, 1fr));
+    grid-template-rows: repeat(var(--grid-rows), minmax(60px, 1fr));
+  }
+
+  .cell {
+    font-size: 2.5em;
+  }
+}
+
+/* Small screens */
+@media (max-width: 600px) {
+  .board {
+    grid-template-columns: repeat(var(--grid-rows), minmax(40px, 1fr));
+    grid-template-rows: repeat(var(--grid-rows), minmax(40px, 1fr));
+  }
+
+  .cell {
+    font-size: 2em;
+  }
+
+  #reset {
+    padding: 0.2rem 0.5rem;
+  }
 }
