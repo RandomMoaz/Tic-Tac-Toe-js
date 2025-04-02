@@ -1,5 +1,5 @@
 
-🚀 Features
+🚀 Features:
 
 🎮 Two-player mode
 
@@ -10,7 +10,7 @@
 🔄 Restart functionality
 
 🎥 Demo
-
+ https://randommoaz.github.io/Tic-Tac-Toe-js/
 
 🛠️ Installation
 
