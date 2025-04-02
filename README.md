@@ -11,11 +11,6 @@
 
 🎥 Demo
 
-Live Demo (Add your live demo link here)
-
-📸 Screenshots
-
-(Add a few images showcasing the game UI)
 
 🛠️ Installation
 
