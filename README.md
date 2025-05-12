@@ -42,14 +42,6 @@ CSS
 
 JavaScript
 
-🤝 Contributing
-
-Feel free to submit issues or pull requests to improve this project.
-
-📜 License
-
-This project is open-source and available under the MIT License.
-
 📞 Contact
 
 For any inquiries or suggestions, feel free to reach out via [https://www.linkedin.com/in/moaz-h-05340b229]
